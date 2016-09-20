@@ -77,9 +77,22 @@ a{
     text-align: center;
 
 }
+
+.socialMedia img{
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.socialMedia img:hover{
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
 .footer{
   margin: 0 auto;
-  padding-top: 140px;
+  padding: 10px 0;
   text-align: center;
   color: #fff;
 
@@ -87,7 +100,6 @@ a{
 .footer p{
   font-size: 0.7em;
 }
-
 
 /* nav icon */
 

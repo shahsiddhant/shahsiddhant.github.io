@@ -170,6 +170,19 @@ h2{
   font-size: 1.2em;
   padding: 0 0 50px 0;
 }
+
+.socialMedia img{
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.socialMedia img:hover{
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
 .footer{
   margin: 0 auto;
   padding: 10px 0;
