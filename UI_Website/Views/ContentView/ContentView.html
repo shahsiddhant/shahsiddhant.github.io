@@ -1,15 +1,5 @@
-<div>
-  <h2>Into To UI</h2>
-  <ul>
-    <li>UI Developer Roles and Responsibilities</li>
-    <li>Technologies needed</li>
-    <li>Power of UI</li>
-    <li>Current market requirements on UI</li>
-    <li>Sample Webpages</li>
-    <li>About Wireframes and Templates</li>
-    <li>Web Architecture</li>
-  </ul>
-</div>
+<div ng-app="contentApp">
+<div ng-view></div>
   <nav aria-label="Page navigation">
   <ul class="pagination">
     <li>
@@ -17,7 +7,7 @@
         <span aria-hidden="true">&laquo;</span>
       </a>
     </li>
-    <li><a href="#">1</a></li>
+    <li><a href="#/contentPageOne">1</a></li>
     <li><a href="#">2</a></li>
     <li><a href="#">3</a></li>
     <li><a href="#">4</a></li>
@@ -29,3 +19,4 @@
     </li>
   </ul>
 </nav>
+</div>
