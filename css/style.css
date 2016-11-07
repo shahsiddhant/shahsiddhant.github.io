@@ -51,8 +51,9 @@ a{
 
 }
 .buttons-primary{
-    border: 2px solid #fff;
-    padding: 5px 40px 5px 40px;
+    border-bottom: 0px solid #fff;
+    padding: 5px 0;
+    margin: 0 10px;
     width: 200px;
     font-family: Futura, sans-serif;
     font-size: 20px;
@@ -64,9 +65,10 @@ a{
     margin-right:10px;
 }
 .buttons-primary:hover{
-    background: white;
-    color: black;
-
+    border-bottom: 2px solid #fff;
+}
+.buttons-primary:active{
+    border-bottom: 2px solid #fff;
 }
 .smallDesc{
     color: white;
