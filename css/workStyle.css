@@ -1,4 +1,6 @@
-
+*{
+  font: 14px 'Futura', sans-serif;
+}
 .recentWork{
     margin: 100px auto;
     width: 700px;
