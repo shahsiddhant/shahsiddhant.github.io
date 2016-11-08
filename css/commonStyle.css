@@ -171,7 +171,11 @@ body{
   color: #fff;
 }
 
-
+h1{
+  font-size: 1.7em;
+  padding: 20px 0 0 0;
+  font-weight: bold;
+}
 
 .backToWork{
   background: none;
@@ -179,11 +183,13 @@ body{
   border: 2px solid transparent;
   color: #fff;
   padding: 5px 0;
-  font-size: 20px;
+  font-size: 1.4em;
+  outline: none;
 }
 .backToWork:hover{
   border-bottom: 2px solid #fff;
 }
 .backToWork:active{
     border-bottom: 2px solid #fff;
+    
 }
