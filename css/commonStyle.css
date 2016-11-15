@@ -141,7 +141,7 @@ body{
 
 }
 
-.footer img{
+footer img{
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
   width: 20px;
@@ -149,18 +149,18 @@ body{
   padding: 10px;
   text-align: center;
 }
-.footer img:hover{
+footer img:hover{
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
 }
-.footer{
+footer{
   margin: 0 auto;
   padding: 10px 0;
   text-align: center;
   color: #fff;
 
 }
-.footer p{
+footer p{
   font-size: 0.7em;
 }
 
@@ -192,4 +192,9 @@ h1{
 .backToWork:active{
     border-bottom: 2px solid #fff;
 
+}
+.images{
+    width: 100%;
+    height: auto;
+    padding: 0 0 40px 0;
 }

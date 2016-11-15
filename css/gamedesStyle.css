@@ -8,13 +8,10 @@
   font-size: 1.1em;
   padding: 0 0 40px 0;
 }
-.mainContainer img{
-  width: 100%;
-  height: auto;
-  padding: 0 0 40px 0;
-}
+
 .viruses img{
   width: 30%;
+
 }
 .towers img{
   width: 24%;

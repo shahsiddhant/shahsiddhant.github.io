@@ -1,52 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Siddhant Shah</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Siddhant Shah</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/commonStyle.css">
+  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aboutStyle.css">
+    <link rel="stylesheet" href="css/workStyle.css">
+    <link rel="stylesheet" href="css/contactStyle.css">
+    <link rel="stylesheet" href="css/webdesStyle.css">
+    <link rel="stylesheet" href="css/animationStyle.css">
+    <link rel="stylesheet" href="css/ccStyle.css">
+    <link rel="stylesheet" href="css/videoStyle.css">
+    <link rel="stylesheet" href="css/gamedesStyle.css">
+    <link rel="stylesheet" href="css/brandingStyle.css">
+
+
+
 </head>
-<div id="nav-icon">
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-</div>
-<div class="main">
-    <div class="mainImage">
-        <img src="img/headerImage.jpg" alt="Header image">
-    </div>
+<body ng-app="webApp" ng-controller="webController">
+  <div class="nav" id="nav-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+  </div>
+  <div id="myNav" class="overlay">
 
-    <h1 class="name">Siddhant Shah</h1>
-        <p class="smallDesc">Eccentric digital artisan who welds classic flavors with modern nuances</p>
-    <div class="buttons">
-        <div class="homePageBtn">
-            <a href="work.html" class="viewWork buttons-primary first-button">work</a>
-            <a href="contact.html" class="about buttons-primary">contact</a>
-        </div>
-    </div>
-</div>
+      <!-- Overlay content -->
+      <div class="overlay-content">
 
-    <div id="myNav" class="overlay ">
+          <a class="nav" href="#work">work</a>
+          <a class="nav" href="#about">about</a>
+          <a class="nav" href="#contact">contact</a>
 
-        <!-- Overlay content -->
-        <div class="overlay-content">
+      </div>
 
-            <a href="work.html">work</a>
-            <a href="about.html">about</a>
-            <a href="contact.html">contact</a>
+  </div>
+  <div ng-view></div>
+  <footer>
+    <a href="https://github.com/shahsiddhant"><img src="img/github.svg"></a>
+    <p>© Siddhant Shah MMXVI. All Rights Reserved.</p>
+  </footer>
 
-        </div>
+<!--Scripts-->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/angular-route/angular-route.min.js"></script>
+<script src="js/app.js"></script>
 
-    </div>
-    <div class="footer">
-      <a href="https://github.com/shahsiddhant"><img src="img/github.svg"></a>
-      <p>© Siddhant Shah MMXVI. All Rights Reserved.</p>
-    </div>
-    <!--Scripts-->
-
-    <script src="js/jquery-3.0.0.min.js" type="text/javascript"></script>
-    <script src="js/app.js" type="text/javascript"></script>
-
-    </body>
-
+</body>
 </html>
