@@ -1,5 +1,5 @@
 
-.mainContainer img{
+.ssImg{
   width: 100%;
   height: auto;
   padding: 0 0 40px 0;
@@ -16,4 +16,11 @@ p{
 .button{
   margin: 0 auto;
   text-align: center;
+}
+.wireframe{
+
+  width: 30%;
+  padding: 1% 1%;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
 }
