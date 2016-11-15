@@ -44,7 +44,7 @@ webApp.config(function($routeProvider){
           templateUrl: "App/Views/contactView.html"
       })
       .when("/webDes",{
-          templateUrl: "App/Views/webDesView.html"
+          templateUrl: "App/Views/webdesView.html"
       })
       .when("/animation",{
           templateUrl: "App/Views/animationView.html"
