@@ -141,7 +141,7 @@ body{
 
 }
 
-.socialMedia img{
+.footer img{
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
   width: 20px;
@@ -149,7 +149,7 @@ body{
   padding: 10px;
   text-align: center;
 }
-.socialMedia img:hover{
+.footer img:hover{
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
 }
@@ -191,5 +191,5 @@ h1{
 }
 .backToWork:active{
     border-bottom: 2px solid #fff;
-    
+
 }
