@@ -22,4 +22,9 @@ h2{
   padding: 1% 1%;
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
+
+}
+.wireframe:hover{
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
 }
