@@ -6,7 +6,7 @@
     border-radius: 50%;
     box-shadow: 0 0 5px 1px #111 ;
     background-color: black;
-
+  transition: transform 500ms;
     margin:100px auto 0 auto;
     overflow: hidden;
 }
@@ -14,7 +14,7 @@
 .imageContainer:hover{
     /*figure this out*/
     transform: scale(1.1);
-    transition: transform 500ms;
+
 }
 
 .mainImage{
