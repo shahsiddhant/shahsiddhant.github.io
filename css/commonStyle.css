@@ -112,10 +112,10 @@ body{
 
 /* The navigation links inside the overlay */
 .overlay a {
+    font-family: "Futura", sans-serif;
     padding: 8px;
     text-decoration: none;
     font-size: 70px;
-    font-family: Futura, sans-serif;
     color: #fff;
     display: block; /* Display block instead of inline */
     transition: 0.2s; /* Transition effects on hover (color) */
@@ -154,10 +154,11 @@ footer img:hover{
   filter: grayscale(0);
 }
 footer{
-  margin: 0 auto;
-  padding: 10px 0;
-  text-align: center;
-  color: #fff;
+
+    margin: 100px auto 0;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
 
 }
 footer p{

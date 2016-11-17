@@ -6,7 +6,7 @@
     border-radius: 50%;
     box-shadow: 0 0 5px 1px #111 ;
     background-color: black;
-  transition: transform 500ms;
+    transition: transform 500ms;
     margin:100px auto 0 auto;
     overflow: hidden;
 }
@@ -43,7 +43,7 @@ a{
 
 }
 .buttons-primary{
-    border-bottom: 0px solid #fff;
+    border-bottom: 2px solid transparent;
     padding: 5px 0;
     margin: 0 10px;
     width: 200px;
@@ -51,7 +51,7 @@ a{
     font-size: 20px;
     color: #ffffff;
     text-transform: lowercase;
-
+    transition: border 0.3s;
 }
 .first-button{
     margin-right:10px;
