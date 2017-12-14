@@ -25,7 +25,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".container {\n    height: 100vh;\n    width: 100%;\n    margin: 0 auto;\n    background-color: #ffbaba;\n    text-align: center;\n}\n\n.content {\n    text-align: left;\n    top: 30%;\n    position: absolute;\n    margin: 0;\n    color: #f9f9f9;\n    padding: 30px;\n}\n\n.content h2 {\n    font-size: 100px;\n}\n\n.content p {\n    font-size: 30px;\n}\n", ""]);
+exports.push([module.i, "* {\n    margin: 0;\n    padding: 0;\n}\n\n.container {\n  height: 100vh;\n  width: 100vw;\n  margin: 0 auto;\n  background-color: #ffbaba;\n  text-align: center;\n}\n\n.content {\n  text-align: left;\n  top: 30%;\n  position: absolute;\n  margin: 0;\n  color: #f9f9f9;\n  padding: 30px;\n}\n\n.content h2 {\n  font-size: 100px;\n}\n\n.content p {\n  font-size: 30px;\n  margin: 30px 0;\n}\n\n\n/* Smartphones (portrait) ----------- */\n\n@media only screen and (max-width: 425px) {\n  /* Styles */\n\n}\n", ""]);
 
 // exports
 
@@ -86,7 +86,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, "* {\n    margin: 0;\n    padding: 0;\n}\n", ""]);
 
 // exports
 
@@ -168,7 +168,7 @@ var appRoutes = [
     { path: 'work', component: __WEBPACK_IMPORTED_MODULE_6__work_work_component__["a" /* WorkComponent */] },
     { path: 'about', component: __WEBPACK_IMPORTED_MODULE_7__about_about_component__["a" /* AboutComponent */] },
     { path: 'contact', component: __WEBPACK_IMPORTED_MODULE_8__contact_contact_component__["a" /* ContactComponent */] },
-    { path: '', redirectTo: '/work', pathMatch: 'full' }
+    { path: '', redirectTo: '/about', pathMatch: 'full' }
 ];
 var AppModule = (function () {
     function AppModule() {
@@ -207,7 +207,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".container {\n    height: 100vh;\n    width: 100%;\n    margin: 0 auto;\n    background-color: #A5E38D;\n    text-align: center;\n}\n\n.content {\n    text-align: left;\n    margin: 0;\n    color: #f9f9f9;\n    padding: 30px;\n}\n\n.content h2 {\n    font-size: 100px;\n}\n\n.content p {\n    font-size: 30px;\n}\n", ""]);
+exports.push([module.i, "* {\n    margin: 0;\n    padding: 0;\n}\n\n.container {\n    height: 100vh;\n    width: 100%;\n    margin: 0 auto;\n    background-color: white;\n    text-align: center;\n    position: relative;\n}\n\n.content {\n    text-align: left;\n    margin: 0;\n    color: #f9f9f9;\n    padding: 30px;\n    position: absolute;\n    top: 30%;\n}\n\nimg {\n    width: 100%;\n}\n\n.content h2 {\n    font-size: 100px;\n\n}\n\n.content p {\n    font-size: 30px;\n    margin: 30px 0;\n\n}\n", ""]);
 
 // exports
 
@@ -220,7 +220,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/card/card.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\" *ngFor=\"let work of works\">\n  <!-- <img src=\"{{source}}\"> -->\n  <div class=\"content\">\n    <h2>{{work.title}}</h2>\n\n      <p *ngFor=\"let element of work.description\">{{element}}</p>\n\n  </div>\n</div>\n"
+module.exports = "<div class=\"container\" *ngFor=\"let work of works\">\n  <img src=\"{{work.source}}\">\n  <div class=\"content\">\n    <h2>{{work.title}}</h2>\n\n      <p *ngFor=\"let element of work.description\">{{element}}</p>\n\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -244,15 +244,18 @@ var CardComponent = (function () {
     function CardComponent() {
         this.works = [{
                 "title": "Testing 01",
-                "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit."]
+                "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit."],
+                'source': '/assets/acid2.png'
             },
             {
                 "title": "Testing 02",
-                "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing eli123"]
+                "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing eli123"],
+                'source': '/assets/website.jpg'
             },
             {
                 "title": "Testing 03",
-                "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing el5345."]
+                "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing el5345."],
+                'source': '/assets/knight.png'
             }];
     }
     CardComponent.prototype.ngOnInit = function () {
@@ -280,7 +283,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".container {\n    height: 100vh;\n    width: 100%;\n    margin: 0 auto;\n    background-color: #88D1C1;\n    text-align: center;\n}\n\n.content {\n    text-align: left;\n    top: 30%;\n    position: absolute;\n    margin: 0;\n    color: #f9f9f9;\n    padding: 30px;\n}\n\n.content h2 {\n    font-size: 100px;\n}\n\n.content p {\n    font-size: 30px;\n}\n", ""]);
+exports.push([module.i, "* {\n    margin: 0;\n    padding: 0;\n}\n\n.container {\n    height: 100vh;\n    width: 100%;\n    margin: 0 auto;\n    background-color: #88D1C1;\n    text-align: center;\n}\n\n.content {\n    text-align: left;\n    top: 30%;\n    position: absolute;\n    margin: 0;\n    color: #f9f9f9;\n    padding: 30px;\n}\n\n.content h2 {\n    font-size: 100px;\n}\n\n.content p {\n    font-size: 30px;\n    margin: 30px 0;\n}\n", ""]);
 
 // exports
 
@@ -402,7 +405,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "ul li{\n    text-decoration: none;\n    display: inline-block;\n}\n\n.nav-container {\n    width: 100vw;\n    margin: 0 auto;\n    text-align: center;\n    position: fixed;\n    top: 0;\n}\n\n.links {\n    margin: 20px 140px 0 0;\n    cursor: pointer;\n    color: #f9f9f9;\n    font-size: 20px;\n\n}\nul li:last-child {\n    margin-right: 0;\n}\n", ""]);
+exports.push([module.i, "* {\n    margin: 0;\n    padding: 0;\n}\n\nul li{\n    text-decoration: none;\n    display: inline-block;\n}\n\n.nav-container {\n    width: 100%;\n    margin: 0 auto;\n    text-align: center;\n    position: fixed;\n    top: 0;\n    z-index: 10;\n}\n\n.links {\n    margin: 20px 10vw 0 0;\n    cursor: pointer;\n    color: #f9f9f9;\n    font-size: 20px;\n\n}\nul li:last-child {\n    margin-right: 0;\n}\n", ""]);
 
 // exports
 
