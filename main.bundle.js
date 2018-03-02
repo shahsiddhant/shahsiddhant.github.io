@@ -20,7 +20,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /***/ "./src/app/about/about.component.css":
 /***/ (function(module, exports) {
 
-module.exports = "* {\n  margin: 0;\n  padding: 0;\n}\n\n.container {\n  height: 100vh;\n  width: 100vw;\n  background-color: #E2A695;\n  text-align: center;\n}\n\n.content {\n  text-align: left;\n  top: 30px;\n  position: absolute;\n  margin: 0;\n  color: #f9f9f9;\n  padding: 30px;\n}\n\n.content h2 {\n  font-size: 100px;\n}\n\n.content p {\n  font-size: 30px;\n  margin: 30px 0;\n}\n\n/* Smartphones (portrait) ----------- */\n\n@media only screen and (max-width: 425px) {\n  /* Styles */\n\n  .content {\n    position: unset;\n    padding-top: 100px;\n  }\n  .content h2 {\n    font-size: 50px;\n  }\n  .content p {\n    font-size: 20px;\n    margin: 30px 0;\n  }\n}\n"
+module.exports = "* {\n  margin: 0;\n  padding: 0;\n}\n\n.container {\n  height: 100vh;\n  width: 100vw;\n  background-color: #E2A695;\n  text-align: center;\n}\n\n.content {\n  text-align: left;\n  top: 30%;\n  position: absolute;\n  margin: 0;\n  color: #f9f9f9;\n  padding: 30px;\n}\n\n.content h2 {\n  font-size: 100px;\n}\n\n.content p {\n  font-size: 30px;\n  margin: 30px 0;\n}\n\n/* Smartphones (portrait) ----------- */\n\n@media only screen and (max-width: 425px) {\n  /* Styles */\n\n  .content {\n    position: unset;\n    padding-top: 100px;\n  }\n  .content h2 {\n    font-size: 50px;\n  }\n  .content p {\n    font-size: 20px;\n    margin: 30px 0;\n  }\n}\n"
 
 /***/ }),
 
@@ -252,7 +252,7 @@ var CardComponent = /** @class */ (function () {
 /***/ "./src/app/contact/contact.component.css":
 /***/ (function(module, exports) {
 
-module.exports = "* {\n  margin: 0;\n  padding: 0;\n}\n\n.container {\n  height: 100vh;\n  width: 100%;\n  margin: 0 auto;\n  background-color: #88D1D4;\n  text-align: center;\n}\n\n.content {\n  text-align: left;\n  top: 10%;\n  position: absolute;\n  margin: 0;\n  color: #f9f9f9;\n  padding: 30px;\n}\n\n.content h2 {\n  font-size: 100px;\n}\n\n.content p {\n  font-size: 30px;\n  margin: 30px 0;\n}\n\n/* Smartphones (portrait) ----------- */\n\n@media only screen and (max-width: 425px) {\n  /* Styles */\n  .content {\n    top: 30%;\n  }\n  .content h2 {\n    font-size: 50px;\n  }\n  .content p {\n    font-size: 20px;\n    margin: 10px 0;\n  }\n}\n"
+module.exports = "* {\n  margin: 0;\n  padding: 0;\n}\n\n.container {\n  height: 100vh;\n  width: 100%;\n  margin: 0 auto;\n  background-color: #88D1D4;\n  text-align: center;\n}\n\n.content {\n  text-align: left;\n  top: 30%;\n  position: absolute;\n  margin: 0;\n  color: #f9f9f9;\n  padding: 30px;\n}\n\n.content h2 {\n  font-size: 100px;\n}\n\n.content p {\n  font-size: 30px;\n  margin: 30px 0;\n}\n\n/* Smartphones (portrait) ----------- */\n\n@media only screen and (max-width: 425px) {\n  /* Styles */\n\n  .content h2 {\n    font-size: 50px;\n  }\n  .content p {\n    font-size: 20px;\n    margin: 10px 0;\n  }\n}\n"
 
 /***/ }),
 
